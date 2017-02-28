@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Curriculum Vitae</title>
+  </head>
+  <body>
+    <header>
+      <img src="img/inicial.svg" alt="Antonio Portillo">
+      <h1>Curriculum Vitae</h1>
+      <h2>Nombres: Antonio Ramón Portillo Soto</h2>
+      <h3>Lugar y Fecha de Nacimiento: 19 de abril de 1984 Asunción - Paraguay</h3>
+    </header>
+    <navbar>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </navbar>
+
+    <section>
+      <h2>Educación</h2>
+      <article>
+        <table border="1px" cellpadding="0px" cellspacing="0px">
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+          <tr>
+            <td>2009</td>
+            <td>Universidad Tecnológica Intercontinental</td>
+            <td>Asunción</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2013</td>
+            <td>Universidad Tecnológica Intercontinental</td>
+            <td>Asunción</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>Next University</td>
+            <td>Online</td>
+            <td>No</td>
+          </tr>
+        </table><br>
+      </article>
+      <article >
+        <form action="index.html" method="post">
+          <h3>Agregar Estudios</h3>
+          <label for="anho"><strong>Año:</strong></label>
+          <select id="anho">
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+          </select><br>
+          <label for="institucion"><strong>Institución:</strong></label>
+          <input type="text" name="institucion" required><br>
+          <label for="lugar"><strong>Lugar:</strong></label>
+          <textarea name="lugar" rows="2" cols="60"></textarea><br>
+          <label for="culmino"><strong>¿Culminó?</strong></label>
+          <input type="radio" name="culmino" value="Si">Si
+          <input type="radio" name="culmino" value="No">No <br>
+          <input type="submit" value="Enviar"><br>
+        </form>
+      </article>
+    </section>
+    <footer>
+      © Derechos Reservados
+      <ul>
+        <li><strong>Email:</strong>aportillosoto@gmail.com</li>
+        <li><strong>Teléfono:</strong>(0961) 942365</li>
+        <li><strong>Dirección:</strong>Cptan. Vicente Matiauda c/ Dr. Pellón - San Lorenzo</li>
+      </ul>
+    </footer>
+
+  </body>
+</html>
